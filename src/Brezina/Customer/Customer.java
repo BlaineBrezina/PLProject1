@@ -3,8 +3,10 @@ package Brezina.Customer;
 /**
  * Created by blainebrezina on 1/29/16.
  */
+// declare, initialize, and combine to form customer objects
 public class Customer {
 
+    // declaring parts of customer object
     private String name;
 
     private String address;
@@ -15,6 +17,7 @@ public class Customer {
 
     private int postalCode;
 
+    // initializing the customer object
     public Customer (String name, String address, String city, String state, int postalCode){
         this.name = name;
 
@@ -27,6 +30,7 @@ public class Customer {
         this.postalCode = postalCode;
     }
 
+    // returns the formatted string of the customer info
     public String getNameAndAddress (){
         String message =
                 name + "\n" +

@@ -3,8 +3,10 @@ package Brezina.Customer;
 /**
  * Created by blainebrezina on 1/29/16.
  */
+// holds customer information
 public class CustomerDB {
 
+    // returns customer objects
     public static Customer getCustomer(int customerNumber) {
 
         if (customerNumber == 1001 ) {
